@@ -1,0 +1,34 @@
+.single_card{
+    background-color: rgb(255, 238, 127);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.single_card a{
+    margin-top:15px;
+   border-left:3px solid rgb(15, 3, 173);
+   margin-left: 5px;
+   color: brown;
+
+}
+h2{
+    text-align: center;
+}
+.banner-button{
+   text-decoration: none;
+   }
+
+.section_heading{
+    display: flex;
+    justify-content: center;
+    color:rgb(222, 92, 92);
+}
+button{
+    margin:10px ; 
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    background-color: chocolate;
+    border: none;
+}

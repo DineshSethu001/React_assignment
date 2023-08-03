@@ -1,0 +1,86 @@
+/* src/App.css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.banners {
+  display: flex;
+  justify-content:space-around;
+  cursor: pointer;
+  margin: 20px;
+  
+}
+.banners a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-left:5px solid rgb(0, 255, 234);
+}
+
+.banner {
+background-color: rgb(239, 149, 84);
+ border-radius: 5px;
+ border: none;
+  padding: 10px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+
+.section {
+ 
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5rem;
+  cursor: pointer;
+  
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  
+}
+
+.card.progress p {
+  margin: 0;
+}
+
+.card.number p {
+  margin: 0;
+}
+
+.card.text p {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.card.tags p {
+  margin: 0;
+}
+
+.button {
+  display: block;
+  margin-top: 10px;
+}
+
+.link {
+  display: block;
+  margin-top: 10px;
+}
