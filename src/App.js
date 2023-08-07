@@ -1,15 +1,15 @@
-import React from 'react'
-import Dashboard from './components/Dashboard';
-import Footer from './components/Footer';
-import './App.css'
+import Banner from './Components/Banner'
+import Section from './Components/Section'
+import './App.css';
 
-
-
-export default function App() {
+function App() {
   return (
-    <div>
-      <Dashboard />
-      <Footer />
+    <div className="App">
+      <Banner />
+      
+      <Section />
     </div>
-  )
+  );
 }
+
+export default App;
